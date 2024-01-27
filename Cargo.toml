@@ -1,0 +1,15 @@
+[package]
+name = "singular"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+path = "./lib.rs"
+name = "singular"
+
+[dependencies]
+
+[package.metadata.docs.rs]
+rustdoc-args = ["--html-in-header", "katex-header.html"]
